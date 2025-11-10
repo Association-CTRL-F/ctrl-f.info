@@ -3,7 +3,11 @@ import { useScroll } from '../hooks/use_scroll';
 
 const LINKS = [
 	{
-		label: 'ctrl-f',
+		label: (
+			<span className="flex items-center gap-2">
+				<img src="/favicon-96x96.png" alt="ctrl-f" className="w-8 h-8" /> ctrl-f
+			</span>
+		),
 		href: '#hero',
 	},
 	{
@@ -14,10 +18,10 @@ const LINKS = [
 		label: 'Discord',
 		href: 'https://discord.gg/informatique',
 		className:
-			'bg-sky-700 hover:bg-sky-800 text-sm text-white rounded-full px-4 py-2 transition-colors',
+			'bg-sky-600 hover:bg-sky-700 text-white text-xs rounded-full px-5 py-2.5 transition-all duration-200 hover:shadow-lg hover:shadow-sky-600/25',
 	},
 ] satisfies {
-	label: string;
+	label: string | React.ReactNode;
 	href: string;
 	className?: string;
 }[];
@@ -49,7 +53,7 @@ export function Navbar() {
 			target="_blank"
 			rel="noopener noreferrer"
 			className={clsx(
-				'text-slate-300 hover:text-white transition-colors',
+				'text-slate-300 hover:text-white transition-colors font-medium text-sm sm:text-base',
 				link.className
 			)}
 		>
@@ -61,10 +65,10 @@ export function Navbar() {
 	return (
 		<nav
 			className={clsx(
-				'fixed transition-all duration-300 left-0 right-0 mx-0 px-8 py-3 bg-slate-800/95 backdrop-blur-sm border-b border-slate-800 flex items-center justify-center',
+				'fixed transition-all duration-300 left-0 right-0 mx-0 px-6 sm:px-8 py-3 bg-slate-900/80 backdrop-blur-md border-b border-slate-800/50 flex items-center justify-center z-50',
 				hasScrolled
-					? 'top-4 w-fit  rounded-full shadow-lg mx-auto gap-6'
-					: 'top-0 w-full rounded-none gap-12'
+					? 'top-4 w-fit rounded-full shadow-xl shadow-black/20 mx-auto gap-5 sm:gap-6'
+					: 'top-0 w-full rounded-none gap-8 sm:gap-12'
 			)}
 		>
 			{navbarLinks}
