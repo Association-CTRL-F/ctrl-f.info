@@ -12,6 +12,12 @@
 		"postinstall": "pnpm run format",
 		"postuninstall": "pnpm run format"
 	},
+	"imports": {
+		"#assets/*": "./src/assets/*",
+		"#components/*": "./src/components/*.tsx",
+		"#data/*": "./src/data/*.ts",
+		"#types/*": "./src/types/*.ts"
+	},
 	"dependencies": {
 		"react": "^19.2.0",
 		"react-dom": "^19.2.0"
