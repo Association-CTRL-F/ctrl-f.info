@@ -17,7 +17,8 @@
 		"#assets/*": "./src/assets/*",
 		"#components/*": "./src/components/*.tsx",
 		"#data/*": "./src/data/*.ts",
-		"#types/*": "./src/types/*.ts"
+		"#types/*": "./src/types/*.ts",
+		"#hooks/*": "./src/hooks/*.tsx"
 	},
 	"dependencies": {
 		"clsx": "^2.1.1",

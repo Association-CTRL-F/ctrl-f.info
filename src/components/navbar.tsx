@@ -1,5 +1,5 @@
+import { useScroll } from '#hooks/use_scroll';
 import clsx from 'clsx';
-import { useScroll } from '../hooks/use_scroll';
 
 const LINKS = [
 	{

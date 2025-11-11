@@ -8,7 +8,7 @@ export const Hero = () => (
 				<div className="text-center mb-20">
 					<div className="flex justify-center mb-8">
 						<img
-							src="/image.png"
+							src="/image.webp"
 							alt="Logo ctrl-f"
 							className="h-28 sm:h-32 md:h-36 lg:h-40 w-auto object-contain"
 						/>
