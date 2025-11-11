@@ -11,13 +11,10 @@ export const Hero = () => (
 					<div className="flex justify-center mb-8">
 						<img
 							src="/image.webp"
-							alt="Logo ctrl-f"
-							className="h-28 sm:h-32 md:h-36 lg:h-40 w-auto object-contain"
+							alt="Logo ctrl-F"
+							className="h-44 sm:h-46 md:h-60 lg:h-64 w-auto object-contain"
 						/>
 					</div>
-					<h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-8 text-white tracking-wide leading-none font-serif">
-						CTRL-F
-					</h1>
 					<p className="text-lg sm:text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto leading-relaxed font-light">
 						Association développant des outils et services informatiques utiles,
 						animant une communauté d'entraide passionnée par l'informatique

@@ -10,11 +10,7 @@ export default defineConfig({
 			provider: 'bunny',
 			fonts: {
 				sans: {
-					name: 'Inter',
-					weights: ['400', '500', '600', '700'],
-				},
-				serif: {
-					name: 'Lora',
+					name: 'fredoka',
 					weights: ['400', '500', '600', '700'],
 				},
 			},

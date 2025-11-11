@@ -1,6 +1,6 @@
 {
 	"name": "ctrl-f.info",
-	"short_name": "CTRL-F",
+	"short_name": "ctrl-F",
 	"icons": [
 		{
 			"src": "/web-app-manifest-192x192.png",

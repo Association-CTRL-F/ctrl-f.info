@@ -1,6 +1,6 @@
 # ctrl-f.info
 
-Site vitrine de l'association ctrl-f : association développant des outils et services informatiques utiles, animant une communauté d'entraide passionnée par l'informatique.
+Site vitrine de l'association ctrl-F : association développant des outils et services informatiques utiles, animant une communauté d'entraide passionnée par l'informatique.
 
 ## 🚀 Technologies utilisées
 
