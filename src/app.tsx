@@ -1,3 +1,4 @@
+import { DonationSection } from '#components/donation_section';
 import { Footer } from '#components/footer';
 import { Hero } from '#components/hero';
 import { Navbar } from '#components/navbar';
@@ -9,6 +10,7 @@ export const App = () => (
 		<Navbar />
 		<main className="flex-grow">
 			<Hero />
+			<DonationSection />
 			<ProjectsSection />
 		</main>
 		<Footer />

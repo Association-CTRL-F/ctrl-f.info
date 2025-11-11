@@ -11,6 +11,10 @@ const LINKS = [
 		href: '#hero',
 	},
 	{
+		label: 'Donations',
+		href: '#donations',
+	},
+	{
 		label: 'Projets',
 		href: '#projects',
 	},
@@ -65,10 +69,10 @@ export function Navbar() {
 	return (
 		<nav
 			className={clsx(
-				'fixed transition-all duration-300 left-0 right-0 mx-0 px-6 sm:px-8 py-3 bg-slate-900/80 backdrop-blur-md border-b border-slate-800/50 flex items-center justify-center z-50',
+				'z-50 fixed transition-all duration-300 left-0 right-0 mx-0 px-6 sm:px-8 py-3 bg-slate-900/80 backdrop-blur-md border-b border-slate-800/50 flex items-center justify-center flex-wrap',
 				hasScrolled
-					? 'top-4 w-fit rounded-full shadow-xl shadow-black/20 mx-auto gap-5 sm:gap-6'
-					: 'top-0 w-full rounded-none gap-8 sm:gap-12'
+					? 'top-4 w-fit rounded-full shadow-xl shadow-black/20 mx-auto gap-x-5 sm:gap-x-6'
+					: 'top-0 w-full rounded-none gap-x-8 sm:gap-x-12'
 			)}
 		>
 			{navbarLinks}
