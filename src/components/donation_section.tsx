@@ -45,8 +45,8 @@ export const DonationSection = () => (
 									<span className="text-white font-semibold">Sécurité</span>
 									<span className="text-slate-400"> : </span>
 									<span className="text-slate-300">
-										Certificats SSL pour sécuriser nos sites web et certificat
-										Microsoft pour signer numériquement l'exécutable de UserDiag
+										Certificat Microsoft pour signer numériquement l'exécutable
+										de UserDiag
 									</span>
 								</div>
 							</li>

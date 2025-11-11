@@ -5,7 +5,7 @@ const LINKS = [
 	{
 		label: (
 			<span className="flex items-center gap-2">
-				<img src="/favicon-96x96.png" alt="ctrl-f" className="w-8 h-8" /> ctrl-f
+				<img src="/favicon-96x96.png" alt="ctrl-f" className="w-8 h-8" /> ctrl-F
 			</span>
 		),
 		href: '#hero',
