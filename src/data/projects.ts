@@ -1,3 +1,4 @@
+import formunbanAsset from '#assets/formunban.png';
 import installerwindowsAsset from '#assets/installerwindowsfr.png';
 import userdiagAsset from '#assets/userdiag.png';
 import type { Project } from '#types/project';
@@ -24,13 +25,15 @@ export const projects: Project[] = [
 		title: 'UserBot',
 		description:
 			'Bot Discord de modération avec des fonctionnalités utilitaires pour envoyer des formulaires à remplir. Aide à la modération du serveur en détectant de potentiels bots, offre des fonctionnalités pour faciliter les bans/mutes/warn/etc.',
-		imagePlaceholder: '/images/userbot-placeholder.png',
+		imagePlaceholder: 'https://placehold.co/600x400/0f172b/cad5e2?text=UserBot',
+		url: 'https://github.com/Association-CTRL-F/UserBot',
 	},
 	{
 		id: 'formunban',
 		title: 'Form Unban',
 		description:
-			"Formulaire (site internet) que les utilisateurs bannis peuvent utiliser pour faire une demande de déban au bout d'un certain temps (normalement 6 mois mais on est assez souple).",
-		imagePlaceholder: '/images/formunban-placeholder.png',
+			'Formulaire (site internet) que les utilisateurs bannis peuvent utiliser pour faire une demande de déban.',
+		imagePlaceholder: formunbanAsset,
+		url: 'moderation.ctrl-f.info',
 	},
 ];
