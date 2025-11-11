@@ -9,6 +9,7 @@
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"format": "prettier --write .",
+		"release": "release-it",
 		"postinstall": "pnpm run format",
 		"postuninstall": "pnpm run format"
 	},
@@ -35,6 +36,7 @@
 		"eslint-plugin-react-refresh": "^0.4.24",
 		"globals": "^16.5.0",
 		"prettier": "^3.6.2",
+		"release-it": "^19.0.6",
 		"typescript": "~5.9.3",
 		"typescript-eslint": "^8.46.4",
 		"unocss": "^66.5.5",
