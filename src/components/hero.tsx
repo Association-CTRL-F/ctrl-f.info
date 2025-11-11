@@ -1,3 +1,5 @@
+import { findFormUnbanUrl } from '#lib/project';
+
 export const Hero = () => (
 	<section
 		id="hero"
@@ -86,7 +88,7 @@ export const Hero = () => (
 							</li>
 						</ul>
 
-						<div className="flex justify-center">
+						<div className="flex flex-col items-center gap-6">
 							<a
 								href="https://discord.gg/informatique"
 								target="_blank"
@@ -96,6 +98,17 @@ export const Hero = () => (
 								<div className="i-simple-icons-discord w-5 h-5 transition-transform group-hover:scale-110" />
 								<span>Rejoindre le serveur Discord</span>
 							</a>
+							<p className="text-sm text-slate-400 text-center max-w-md">
+								Vous avez été banni du serveur ?{' '}
+								<a
+									href={findFormUnbanUrl()}
+									className="text-sky-400 hover:text-sky-300 transition-colors"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Faites une demande de déban via notre formulaire
+								</a>
+							</p>
 						</div>
 					</div>
 				</div>

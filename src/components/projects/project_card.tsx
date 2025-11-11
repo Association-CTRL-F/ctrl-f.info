@@ -5,7 +5,10 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard = ({ project }: ProjectCardProps) => (
-	<article className="group bg-slate-800/60 rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl border border-slate-700/50 backdrop-blur-sm flex flex-col h-full">
+	<article
+		data-project-id={project.id}
+		className="group bg-slate-800/60 rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl border border-slate-700/50 backdrop-blur-sm flex flex-col h-full"
+	>
 		<div className="aspect-video bg-gradient-to-br from-slate-700/50 to-slate-800/50 flex items-center justify-center border-b border-slate-700/50 overflow-hidden">
 			{project.imagePlaceholder && (
 				<img

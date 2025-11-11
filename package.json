@@ -18,7 +18,8 @@
 		"#components/*": "./src/components/*.tsx",
 		"#data/*": "./src/data/*.ts",
 		"#types/*": "./src/types/*.ts",
-		"#hooks/*": "./src/hooks/*.tsx"
+		"#hooks/*": "./src/hooks/*.tsx",
+		"#lib/*": "./src/lib/*.ts"
 	},
 	"dependencies": {
 		"clsx": "^2.1.1",

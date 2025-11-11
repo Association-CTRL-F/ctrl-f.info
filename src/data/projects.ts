@@ -34,6 +34,6 @@ export const projects: Project[] = [
 		description:
 			'Formulaire (site internet) que les utilisateurs bannis peuvent utiliser pour faire une demande de déban.',
 		imagePlaceholder: formunbanAsset,
-		url: 'moderation.ctrl-f.info',
+		url: 'https://moderation.ctrl-f.info',
 	},
 ];
