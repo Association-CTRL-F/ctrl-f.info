@@ -1,5 +1,5 @@
 export const DonationSection = () => (
-	<section id="donations" className="py-24 bg-slate-950">
+	<section id="donations" className="py-16 sm:py-20 md:py-24 bg-slate-950">
 		<div className="container mx-auto px-4 sm:px-6 lg:px-8">
 			<div className="max-w-6xl mx-auto">
 				<div className="bg-slate-800/60 rounded-3xl p-8 sm:p-10 md:p-14 border border-slate-700/50 backdrop-blur-xl shadow-2xl">

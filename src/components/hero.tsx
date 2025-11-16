@@ -3,7 +3,7 @@ import { findFormUnbanUrl } from '#lib/project';
 export const Hero = () => (
 	<section
 		id="hero"
-		className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 pt-32 pb-24"
+		className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 pt-24 pb-16 sm:pt-32 sm:pb-24"
 	>
 		<div className="container mx-auto px-4 sm:px-6 lg:px-8">
 			<div className="max-w-6xl mx-auto">
