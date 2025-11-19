@@ -1,0 +1,14 @@
+services:
+  ctrlf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - VITE_UMAMI_URL=${VITE_UMAMI_URL}
+        - VITE_UMAMI_WEBSITE_ID=${VITE_UMAMI_WEBSITE_ID}
+    ports:
+      - 80:80
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env

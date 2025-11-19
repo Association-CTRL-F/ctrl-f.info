@@ -10,7 +10,11 @@ FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY package.json pnpm-lock.yaml ./
 COPY . .
+ARG VITE_UMAMI_URL
+ARG VITE_UMAMI_WEBSITE_ID
 ENV NODE_ENV=production
+ENV VITE_UMAMI_URL=${VITE_UMAMI_URL}
+ENV VITE_UMAMI_WEBSITE_ID=${VITE_UMAMI_WEBSITE_ID}
 RUN pnpm run build
 
 FROM nginx:alpine AS production
