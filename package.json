@@ -5,9 +5,9 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc -b && vite build",
-		"lint": "eslint .",
+		"build": "tsc -b && vite build && vite build --ssr src/ssr.tsx --outDir dist/server && node scripts/prerender.ts",
 		"preview": "vite preview",
+		"lint": "eslint .",
 		"format": "prettier --write .",
 		"release": "release-it",
 		"postinstall": "pnpm run format",
