@@ -32,7 +32,7 @@ export const projects: Project[] = [
 		id: 'formunban',
 		title: 'Form Unban',
 		description:
-			'Formulaire (site internet) que les utilisateurs bannis peuvent utiliser pour faire une demande de déban.',
+			'Formulaire (site internet) que les utilisateurs bannis peuvent utiliser pour faire une demande de déban du serveur Discord.',
 		imagePlaceholder: formunbanAsset,
 		url: 'https://moderation.ctrl-f.info',
 	},
