@@ -58,4 +58,4 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            docker service update ctrlf_ctrlf --with-registry-auth --image ctrlfdocker/ctrl-f.info:latest
+            docker service update ctrl-f_front --with-registry-auth --image ctrlfdocker/ctrl-f.info:latest
