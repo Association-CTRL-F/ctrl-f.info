@@ -1,3 +1,5 @@
+import { ClientOnly } from '#components/client_only';
+import { ContactSection } from '#components/contact_section';
 import { DonationSection } from '#components/donation_section';
 import { Footer } from '#components/footer';
 import { Hero } from '#components/hero';
@@ -12,6 +14,9 @@ export const App = () => (
 			<Hero />
 			<DonationSection />
 			<ProjectsSection />
+			<ClientOnly>
+				<ContactSection />
+			</ClientOnly>
 		</main>
 		<Footer />
 		<UmamiPortal />
